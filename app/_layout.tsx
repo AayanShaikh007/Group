@@ -1,12 +1,24 @@
-import React from 'react';
+import { Slot } from 'expo-router';
 import { View, StyleSheet } from 'react-native';
+import { GroupProvider } from './(setup)/groupContext';
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  return <View style={styles.container}>{children}</View>;
+export default function NoFooterLayout() {
+  return ( 
+    <GroupProvider>
+
+    <View style={styles.container}>
+      <Slot />
+    </View>
+    
+    </GroupProvider>
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // Make sure it takes the full screen space
+    flex: 1,
+    backgroundColor: '#fff', // or any default background color you prefer
   },
 });
+
+// 
