@@ -1,50 +1,130 @@
-# Welcome to your Expo app 👋
+# Group 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A mobile application that makes planning and managing gatherings easier by bringing people together through technology.
 
-## Get started
+## 📖 Overview
 
-1. Install dependencies
+**Group** is a mobile application designed to simplify the process of organizing gatherings, coordinating with friends, and managing events. The app provides a centralized platform where users can plan, communicate, and stay organized when bringing people together.
 
-   ```bash
-   npm install
-   ```
+The goal of Group is to reduce the stress involved in event planning by providing simple and intuitive tools for managing social activities.
 
-2. Start the app
+## ✨ Features
 
-   ```bash
-   npx expo start
-   ```
+* 👥 Create and manage groups
+* 📅 Organize gatherings and events
+* 🔔 Keep track of important updates
+* 💬 Improve coordination between participants
+* 📱 Mobile-first experience for Android and iOS
+* 🎨 Modern and responsive user interface
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frontend / Mobile Application
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* **React Native**
+* **Expo**
+* **TypeScript**
+* **JavaScript**
+* **Tailwind CSS / NativeWind**
 
-## Get a fresh project
+### Development Tools
 
-When you're ready, run:
+* Git & GitHub
+* Node.js
+* npm
+* Expo CLI
 
-```bash
-npm run reset-project
+## 📂 Project Structure
+
+```text
+Group/
+│
+├── app/              # Application screens and routing
+├── assets/           # Images and static resources
+├── components/       # Reusable UI components
+├── constants/        # App constants and configurations
+├── hooks/            # Custom React hooks
+├── lib/              # Utility functions
+├── scripts/          # Development scripts
+│
+├── app.json          # Expo configuration
+├── package.json      # Dependencies and scripts
+├── tsconfig.json     # TypeScript configuration
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
 
-To learn more about developing your project with Expo, look at the following resources:
+Install the following:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Node.js
+* npm
+* Expo CLI
 
-## Join the community
+### Installation
 
-Join our community of developers creating universal apps.
+Clone the repository:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+git clone https://github.com/AayanShaikh007/Group.git
+```
+
+Navigate into the project:
+
+```bash
+cd Group
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## ▶️ Running the Application
+
+Start the Expo development server:
+
+```bash
+npx expo start
+```
+
+You can run the app using:
+
+* Expo Go
+* Android Emulator
+* iOS Simulator
+* Development Build
+
+## 🧪 Development
+
+To begin modifying the application:
+
+1. Open the project in your preferred IDE.
+2. Edit files inside the `app` directory.
+3. Use Expo's hot reload feature to test changes.
+
+## 👥 Contributors
+
+| Name         | Role         |
+| ------------ | ------------ |
+| Aayan Shaikh | Developer    |
+| Team Members | Contributors |
+
+## 🔮 Future Improvements
+
+Potential future additions:
+
+* User authentication
+* Real-time messaging
+* Push notifications
+* Calendar integration
+* Location-based event planning
+* Cloud database integration
+* Event recommendations
+
+## 📄 License
+
+This project is currently developed for educational and collaborative purposes.
